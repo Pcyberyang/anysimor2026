@@ -7,9 +7,17 @@
 - 原始框架与 `.osim` 目标尺寸切换
 - 185 帧、90 Hz 的 OpenSim IK 动作回放与时间轴拖动
 - 按 OpenSim 坐标定义的自由动作驱动
-- 14 个肌肉激活通道，左右共 28 个显示组、92 条代表性路径
+- 第一版仅对14 个肌肉激活通道，左右共 28 个显示组、92 条代表性路径
 - 肌肉颜色、粗细和透明度随激活度变化
 - 骨骼、关节中心、地面、跟随骨盆和肌肉显示开关
+- 展示：
+- 
+<img width="1263" height="871" alt="1" src="https://github.com/user-attachments/assets/8f9b0440-601c-4276-9b61-76ab52b67ca1" />
+<img width="1079" height="875" alt="2" src="https://github.com/user-attachments/assets/2f5920ec-4580-4e54-9d96-8381f0abeb34" />
+<img width="1093" height="724" alt="3" src="https://github.com/user-attachments/assets/7616e009-16b9-434f-bd00-f46ca14e31df" />
+<img width="1071" height="768" alt="4" src="https://github.com/user-attachments/assets/78ef879a-30e6-4ed2-866c-7458c15a24c7" />
+<img width="1003" height="652" alt="10" src="https://github.com/user-attachments/assets/6673c419-d1d4-44cf-b0f0-45f9482e9d57" />
+<img width="1068" height="948" alt="11" src="https://github.com/user-attachments/assets/d024f3d4-ca10-47c3-9cbf-c94a234897b8" />
 
 ## 启动
 
@@ -64,3 +72,4 @@ npm run verify:opensim
 - 肌肉路径采用代表性直线或样条路径，尚未逐帧求解 OpenSim `PathWrap`。
 - 聚合肌肉组和子组会重叠显示，聚合组使用较低透明度。
 - 当前 IK 源数据中的上肢和大部分脊柱坐标变化很小，因此回放中接近静止；这是源数据状态，不是 Web 渲染丢失自由度。
+  
