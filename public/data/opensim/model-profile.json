@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "opensim-v11-subject",
+  "label": "OpenSim v11 · Subject-specific · 60 kg",
+  "manifest": "./data/opensim/skeleton-manifest.json",
+  "scalingTemplate": "./data/opensim/scaling-template.json",
+  "motion": "./data/opensim/motion-data.json",
+  "muscleGroups": "./data/opensim/muscle-groups.json",
+  "geometryRoot": "./models/opensim/geometry",
+  "sourceModel": "./models/opensim/source/SpineModel_mass60marktoPlugInGait_PY2026_vascap_anklefootX_1011PSneck_mir5_fullarm_R2L_v11_anybody_subtalar.osim"
+}

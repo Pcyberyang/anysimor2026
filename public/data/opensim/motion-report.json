@@ -1,0 +1,849 @@
+{
+  "source": {
+    "rightWorkbook": "input/全身活动测量右侧.xlsx",
+    "rightWorkbookSha256": "5f97d7016287de041871429ff6414f49179b55dda426c44a6f895cb513c68fc3",
+    "leftWorkbook": "input/全身活动测量左侧.xlsx",
+    "leftWorkbookSha256": "e3cc0267fe9693f631c9df40f442f33eba158aba684f5307b71bca32a42e4ced",
+    "mappingCsv": null,
+    "sourceMotion": "input/ik_v11_walking_full_smooth6.mot",
+    "skeletonModelSha256": "ccd0dfce867ce06adaedef84fc129afd831146d8acfb9accbc976a11629a9cbd"
+  },
+  "meta": {
+    "frameCount": 185,
+    "fps": 90.00001956522165,
+    "durationSeconds": 2.044444,
+    "coordinateCount": 87,
+    "explicitCoordinateCount": 82,
+    "activationColumnCount": 14,
+    "missingExplicitCoordinates": [
+      "Abs_FE",
+      "Abs_LB",
+      "Abs_AR",
+      "knee_angle_r_beta",
+      "knee_angle_l_beta"
+    ],
+    "nearStaticCoordinates": [
+      "Abs_FE",
+      "Abs_LB",
+      "Abs_AR",
+      "L5_S1_FE",
+      "L5_S1_LB",
+      "L5_S1_AR",
+      "L4_L5_FE",
+      "L4_L5_LB",
+      "L4_L5_AR",
+      "L3_L4_FE",
+      "L3_L4_LB",
+      "L3_L4_AR",
+      "L2_L3_FE",
+      "L2_L3_LB",
+      "L2_L3_AR",
+      "L1_L2_FE",
+      "L1_L2_LB",
+      "L1_L2_AR",
+      "T12_L1_FE",
+      "T12_L1_LB",
+      "T12_L1_AR",
+      "T9_T10_FE",
+      "T9_T10_LB",
+      "T9_T10_AR",
+      "T6_T7_FE",
+      "T6_T7_LB",
+      "T6_T7_AR",
+      "T4_T5_FE",
+      "T4_T5_LB",
+      "T4_T5_AR",
+      "T2_T3_FE",
+      "T2_T3_LB",
+      "T2_T3_AR",
+      "T1_C7_FE",
+      "T1_C7_LB",
+      "T1_C7_AR",
+      "C7_C6_FE",
+      "C7_C6_LB",
+      "C7_C6_AR",
+      "C6_C5_FE",
+      "C6_C5_LB",
+      "C6_C5_AR",
+      "C5_C4_FE",
+      "C5_C4_LB",
+      "C5_C4_AR",
+      "C4_C3_FE",
+      "C4_C3_LB",
+      "C4_C3_AR",
+      "C3_C2_FE",
+      "C3_C2_LB",
+      "C3_C2_AR",
+      "C2_C1_AR",
+      "C1_head_FE",
+      "shoulder_elv_r",
+      "shoulder_rot_r",
+      "elv_angle_r",
+      "elbow_flexion_r",
+      "pro_sup_r",
+      "wrist_dev_r",
+      "wrist_flex_r",
+      "shoulder_elv_l",
+      "shoulder_rot_l",
+      "elv_angle_l",
+      "elbow_flexion_l",
+      "pro_sup_l",
+      "wrist_dev_l",
+      "wrist_flex_l"
+    ],
+    "nearStaticByRegion": {
+      "躯干与胸廓": [
+        "Abs_FE",
+        "Abs_LB",
+        "Abs_AR",
+        "L5_S1_FE",
+        "L5_S1_LB",
+        "L5_S1_AR",
+        "L4_L5_FE",
+        "L4_L5_LB",
+        "L4_L5_AR",
+        "L3_L4_FE",
+        "L3_L4_LB",
+        "L3_L4_AR",
+        "L2_L3_FE",
+        "L2_L3_LB",
+        "L2_L3_AR",
+        "L1_L2_FE",
+        "L1_L2_LB",
+        "L1_L2_AR",
+        "T12_L1_FE",
+        "T12_L1_LB",
+        "T12_L1_AR",
+        "T9_T10_FE",
+        "T9_T10_LB",
+        "T9_T10_AR",
+        "T6_T7_FE",
+        "T6_T7_LB",
+        "T6_T7_AR",
+        "T4_T5_FE",
+        "T4_T5_LB",
+        "T4_T5_AR",
+        "T2_T3_FE",
+        "T2_T3_LB",
+        "T2_T3_AR"
+      ],
+      "颈段与头部": [
+        "T1_C7_FE",
+        "T1_C7_LB",
+        "T1_C7_AR",
+        "C7_C6_FE",
+        "C7_C6_LB",
+        "C7_C6_AR",
+        "C6_C5_FE",
+        "C6_C5_LB",
+        "C6_C5_AR",
+        "C5_C4_FE",
+        "C5_C4_LB",
+        "C5_C4_AR",
+        "C4_C3_FE",
+        "C4_C3_LB",
+        "C4_C3_AR",
+        "C3_C2_FE",
+        "C3_C2_LB",
+        "C3_C2_AR",
+        "C2_C1_AR",
+        "C1_head_FE"
+      ],
+      "右上肢": [
+        "shoulder_elv_r",
+        "shoulder_rot_r",
+        "elv_angle_r",
+        "elbow_flexion_r",
+        "pro_sup_r",
+        "wrist_dev_r",
+        "wrist_flex_r"
+      ],
+      "左上肢": [
+        "shoulder_elv_l",
+        "shoulder_rot_l",
+        "elv_angle_l",
+        "elbow_flexion_l",
+        "pro_sup_l",
+        "wrist_dev_l",
+        "wrist_flex_l"
+      ]
+    },
+    "units": {
+      "rotation": "radian",
+      "translation": "meter",
+      "sourceRotation": "degree"
+    },
+    "note": "Left and right Sheet1 rows are merged by row-2 OpenSim coordinate names. Source sign transformations are restored before pose evaluation."
+  },
+  "audit": {
+    "sourceMotionPath": "input/ik_v11_walking_full_smooth6.mot",
+    "maxCoordinateError": 5.0173972199196726e-9,
+    "coordinateErrors": {
+      "pelvis_rotation": 0,
+      "pelvis_tilt": 0,
+      "pelvis_list": 0,
+      "pelvis_tx": 0,
+      "pelvis_ty": 0,
+      "pelvis_tz": 0,
+      "Abs_FE": 0,
+      "Abs_LB": 0,
+      "Abs_AR": 0,
+      "L5_S1_FE": 0,
+      "L5_S1_LB": 0,
+      "L5_S1_AR": 0,
+      "L4_L5_FE": 0,
+      "L4_L5_LB": 0,
+      "L4_L5_AR": 0,
+      "L3_L4_FE": 0,
+      "L3_L4_LB": 0,
+      "L3_L4_AR": 0,
+      "L2_L3_FE": 0,
+      "L2_L3_LB": 0,
+      "L2_L3_AR": 0,
+      "L1_L2_FE": 0,
+      "L1_L2_LB": 0,
+      "L1_L2_AR": 0,
+      "T12_L1_FE": 0,
+      "T12_L1_LB": 0,
+      "T12_L1_AR": 0,
+      "T9_T10_FE": 0,
+      "T9_T10_LB": 0,
+      "T9_T10_AR": 0,
+      "T6_T7_FE": 0,
+      "T6_T7_LB": 0,
+      "T6_T7_AR": 0,
+      "T4_T5_FE": 0,
+      "T4_T5_LB": 0,
+      "T4_T5_AR": 0,
+      "T2_T3_FE": 0,
+      "T2_T3_LB": 0,
+      "T2_T3_AR": 0,
+      "T1_C7_FE": 0,
+      "T1_C7_LB": 0,
+      "T1_C7_AR": 0,
+      "C7_C6_FE": 0,
+      "C7_C6_LB": 0,
+      "C7_C6_AR": 0,
+      "C6_C5_FE": 0,
+      "C6_C5_LB": 0,
+      "C6_C5_AR": 0,
+      "C5_C4_FE": 0,
+      "C5_C4_LB": 0,
+      "C5_C4_AR": 0,
+      "C4_C3_FE": 0,
+      "C4_C3_LB": 0,
+      "C4_C3_AR": 0,
+      "C3_C2_FE": 0,
+      "C3_C2_LB": 0,
+      "C3_C2_AR": 0,
+      "C2_C1_AR": 0,
+      "C1_head_FE": 0,
+      "shoulder_elv_r": 0,
+      "shoulder_rot_r": 0,
+      "elv_angle_r": 0,
+      "elbow_flexion_r": 0,
+      "pro_sup_r": 0,
+      "wrist_dev_r": 0,
+      "wrist_flex_r": 0,
+      "shoulder_elv_l": 0,
+      "shoulder_rot_l": 0,
+      "elv_angle_l": 0,
+      "elbow_flexion_l": 0,
+      "pro_sup_l": 0,
+      "wrist_dev_l": 0,
+      "wrist_flex_l": 0,
+      "hip_flexion_r": 0,
+      "hip_adduction_r": 0,
+      "hip_rotation_r": 0,
+      "knee_angle_r": 0,
+      "ankle_angle_r": 0,
+      "subtalar_angle_r": 0,
+      "hip_flexion_l": 0,
+      "hip_adduction_l": 0,
+      "hip_rotation_l": 0,
+      "knee_angle_l": 0,
+      "ankle_angle_l": 0,
+      "subtalar_angle_l": 0,
+      "knee_angle_r_beta": 5.0173972199196726e-9,
+      "knee_angle_l_beta": 5.0008807650492315e-9
+    },
+    "inferredSourceUnits": {
+      "pelvis_rotation": "degree",
+      "pelvis_tilt": "degree",
+      "pelvis_list": "degree",
+      "pelvis_tx": "meter",
+      "pelvis_ty": "meter",
+      "pelvis_tz": "meter",
+      "Abs_FE": "degree",
+      "Abs_LB": "degree",
+      "Abs_AR": "degree",
+      "L5_S1_FE": "degree",
+      "L5_S1_LB": "degree",
+      "L5_S1_AR": "degree",
+      "L4_L5_FE": "degree",
+      "L4_L5_LB": "degree",
+      "L4_L5_AR": "degree",
+      "L3_L4_FE": "degree",
+      "L3_L4_LB": "degree",
+      "L3_L4_AR": "degree",
+      "L2_L3_FE": "degree",
+      "L2_L3_LB": "degree",
+      "L2_L3_AR": "degree",
+      "L1_L2_FE": "degree",
+      "L1_L2_LB": "degree",
+      "L1_L2_AR": "degree",
+      "T12_L1_FE": "degree",
+      "T12_L1_LB": "degree",
+      "T12_L1_AR": "degree",
+      "T9_T10_FE": "degree",
+      "T9_T10_LB": "degree",
+      "T9_T10_AR": "degree",
+      "T6_T7_FE": "degree",
+      "T6_T7_LB": "degree",
+      "T6_T7_AR": "degree",
+      "T4_T5_FE": "degree",
+      "T4_T5_LB": "degree",
+      "T4_T5_AR": "degree",
+      "T2_T3_FE": "degree",
+      "T2_T3_LB": "degree",
+      "T2_T3_AR": "degree",
+      "T1_C7_FE": "degree",
+      "T1_C7_LB": "degree",
+      "T1_C7_AR": "degree",
+      "C7_C6_FE": "degree",
+      "C7_C6_LB": "degree",
+      "C7_C6_AR": "degree",
+      "C6_C5_FE": "degree",
+      "C6_C5_LB": "degree",
+      "C6_C5_AR": "degree",
+      "C5_C4_FE": "degree",
+      "C5_C4_LB": "degree",
+      "C5_C4_AR": "degree",
+      "C4_C3_FE": "degree",
+      "C4_C3_LB": "degree",
+      "C4_C3_AR": "degree",
+      "C3_C2_FE": "degree",
+      "C3_C2_LB": "degree",
+      "C3_C2_AR": "degree",
+      "C2_C1_AR": "degree",
+      "C1_head_FE": "degree",
+      "shoulder_elv_r": "degree",
+      "shoulder_rot_r": "degree",
+      "elv_angle_r": "degree",
+      "elbow_flexion_r": "degree",
+      "pro_sup_r": "degree",
+      "wrist_dev_r": "degree",
+      "wrist_flex_r": "degree",
+      "shoulder_elv_l": "degree",
+      "shoulder_rot_l": "degree",
+      "elv_angle_l": "degree",
+      "elbow_flexion_l": "degree",
+      "pro_sup_l": "degree",
+      "wrist_dev_l": "degree",
+      "wrist_flex_l": "degree",
+      "hip_flexion_r": "degree",
+      "hip_adduction_r": "degree",
+      "hip_rotation_r": "degree",
+      "knee_angle_r": "degree",
+      "ankle_angle_r": "degree",
+      "subtalar_angle_r": "degree",
+      "hip_flexion_l": "degree",
+      "hip_adduction_l": "degree",
+      "hip_rotation_l": "degree",
+      "knee_angle_l": "degree",
+      "ankle_angle_l": "degree",
+      "subtalar_angle_l": "degree",
+      "knee_angle_r_beta": "radian",
+      "knee_angle_l_beta": "radian"
+    },
+    "largestErrors": [
+      [
+        "knee_angle_r_beta",
+        5.0173972199196726e-9
+      ],
+      [
+        "knee_angle_l_beta",
+        5.0008807650492315e-9
+      ],
+      [
+        "pelvis_rotation",
+        0
+      ],
+      [
+        "pelvis_tilt",
+        0
+      ],
+      [
+        "pelvis_list",
+        0
+      ],
+      [
+        "pelvis_tx",
+        0
+      ],
+      [
+        "pelvis_ty",
+        0
+      ],
+      [
+        "pelvis_tz",
+        0
+      ],
+      [
+        "Abs_FE",
+        0
+      ],
+      [
+        "Abs_LB",
+        0
+      ],
+      [
+        "Abs_AR",
+        0
+      ],
+      [
+        "L5_S1_FE",
+        0
+      ]
+    ]
+  },
+  "mergeWarnings": [],
+  "mergeWarningCount": 0,
+  "coordinateRangesDegrees": {
+    "pelvis_rotation": {
+      "min": -3.5142361,
+      "max": 2.99886206,
+      "unit": "deg"
+    },
+    "pelvis_tilt": {
+      "min": -9.69509288,
+      "max": -5.01878243,
+      "unit": "deg"
+    },
+    "pelvis_list": {
+      "min": -1.3292328400000002,
+      "max": 0.8265350599999999,
+      "unit": "deg"
+    },
+    "pelvis_tx": {
+      "min": -1.56316955,
+      "max": 0.68749652,
+      "unit": "m"
+    },
+    "pelvis_ty": {
+      "min": 0.89652689,
+      "max": 0.97913779,
+      "unit": "m"
+    },
+    "pelvis_tz": {
+      "min": 0.20152201,
+      "max": 0.29408305,
+      "unit": "m"
+    },
+    "Abs_FE": {
+      "min": 0,
+      "max": 0,
+      "unit": "deg"
+    },
+    "Abs_LB": {
+      "min": 0,
+      "max": 0,
+      "unit": "deg"
+    },
+    "Abs_AR": {
+      "min": 0,
+      "max": 0,
+      "unit": "deg"
+    },
+    "L5_S1_FE": {
+      "min": -0.00793647,
+      "max": 0.00571112,
+      "unit": "deg"
+    },
+    "L5_S1_LB": {
+      "min": -0.01639674,
+      "max": 0.02838637,
+      "unit": "deg"
+    },
+    "L5_S1_AR": {
+      "min": -0.00400944,
+      "max": 0.024351589999999996,
+      "unit": "deg"
+    },
+    "L4_L5_FE": {
+      "min": -0.007471000000000001,
+      "max": 0.00611899,
+      "unit": "deg"
+    },
+    "L4_L5_LB": {
+      "min": -0.01349242,
+      "max": 0.02888185,
+      "unit": "deg"
+    },
+    "L4_L5_AR": {
+      "min": -0.00569062,
+      "max": 0.0168508,
+      "unit": "deg"
+    },
+    "L3_L4_FE": {
+      "min": -0.00755752,
+      "max": 0.00609617,
+      "unit": "deg"
+    },
+    "L3_L4_LB": {
+      "min": -0.01130353,
+      "max": 0.028810920000000004,
+      "unit": "deg"
+    },
+    "L3_L4_AR": {
+      "min": -0.007162239999999999,
+      "max": 0.013886240000000001,
+      "unit": "deg"
+    },
+    "L2_L3_FE": {
+      "min": -0.00795966,
+      "max": 0.006152890000000001,
+      "unit": "deg"
+    },
+    "L2_L3_LB": {
+      "min": -0.00983788,
+      "max": 0.027399170000000004,
+      "unit": "deg"
+    },
+    "L2_L3_AR": {
+      "min": -0.00923063,
+      "max": 0.014807039999999999,
+      "unit": "deg"
+    },
+    "L1_L2_FE": {
+      "min": -0.00848238,
+      "max": 0.00612687,
+      "unit": "deg"
+    },
+    "L1_L2_LB": {
+      "min": -0.00910132,
+      "max": 0.02543394,
+      "unit": "deg"
+    },
+    "L1_L2_AR": {
+      "min": -0.01000698,
+      "max": 0.01509278,
+      "unit": "deg"
+    },
+    "T12_L1_FE": {
+      "min": -0.009010909999999999,
+      "max": 0.006329,
+      "unit": "deg"
+    },
+    "T12_L1_LB": {
+      "min": -0.00933102,
+      "max": 0.02279773,
+      "unit": "deg"
+    },
+    "T12_L1_AR": {
+      "min": -0.00925425,
+      "max": 0.01438468,
+      "unit": "deg"
+    },
+    "T9_T10_FE": {
+      "min": -0.00888842,
+      "max": 0.006031379999999999,
+      "unit": "deg"
+    },
+    "T9_T10_LB": {
+      "min": -0.00982174,
+      "max": 0.019853899999999997,
+      "unit": "deg"
+    },
+    "T9_T10_AR": {
+      "min": -0.0065435400000000005,
+      "max": 0.01213426,
+      "unit": "deg"
+    },
+    "T6_T7_FE": {
+      "min": -0.00864288,
+      "max": 0.00582181,
+      "unit": "deg"
+    },
+    "T6_T7_LB": {
+      "min": -0.01072719,
+      "max": 0.01662507,
+      "unit": "deg"
+    },
+    "T6_T7_AR": {
+      "min": -0.00376975,
+      "max": 0.01269989,
+      "unit": "deg"
+    },
+    "T4_T5_FE": {
+      "min": -0.008047380000000002,
+      "max": 0.005995330000000001,
+      "unit": "deg"
+    },
+    "T4_T5_LB": {
+      "min": -0.011006590000000002,
+      "max": 0.013710540000000002,
+      "unit": "deg"
+    },
+    "T4_T5_AR": {
+      "min": -0.00207007,
+      "max": 0.01356875,
+      "unit": "deg"
+    },
+    "T2_T3_FE": {
+      "min": -0.00708895,
+      "max": 0.00638298,
+      "unit": "deg"
+    },
+    "T2_T3_LB": {
+      "min": -0.010384590000000003,
+      "max": 0.01005603,
+      "unit": "deg"
+    },
+    "T2_T3_AR": {
+      "min": 0.00064264,
+      "max": 0.012216750000000002,
+      "unit": "deg"
+    },
+    "T1_C7_FE": {
+      "min": -0.00582219,
+      "max": 0.00647158,
+      "unit": "deg"
+    },
+    "T1_C7_LB": {
+      "min": -0.00836988,
+      "max": 0.0095506,
+      "unit": "deg"
+    },
+    "T1_C7_AR": {
+      "min": -0.0007595400000000001,
+      "max": 0.00972195,
+      "unit": "deg"
+    },
+    "C7_C6_FE": {
+      "min": -0.005031150000000001,
+      "max": 0.006778290000000001,
+      "unit": "deg"
+    },
+    "C7_C6_LB": {
+      "min": -0.00795997,
+      "max": 0.00848105,
+      "unit": "deg"
+    },
+    "C7_C6_AR": {
+      "min": -0.00046669999999999996,
+      "max": 0.009954389999999999,
+      "unit": "deg"
+    },
+    "C6_C5_FE": {
+      "min": -0.00433258,
+      "max": 0.00708653,
+      "unit": "deg"
+    },
+    "C6_C5_LB": {
+      "min": -0.007649290000000001,
+      "max": 0.007551510000000001,
+      "unit": "deg"
+    },
+    "C6_C5_AR": {
+      "min": -0.00021467,
+      "max": 0.01015775,
+      "unit": "deg"
+    },
+    "C5_C4_FE": {
+      "min": -0.0037716900000000003,
+      "max": 0.00723979,
+      "unit": "deg"
+    },
+    "C5_C4_LB": {
+      "min": -0.0073485899999999995,
+      "max": 0.00664008,
+      "unit": "deg"
+    },
+    "C5_C4_AR": {
+      "min": -0.00010802,
+      "max": 0.01024469,
+      "unit": "deg"
+    },
+    "C4_C3_FE": {
+      "min": -0.0032214800000000005,
+      "max": 0.00725586,
+      "unit": "deg"
+    },
+    "C4_C3_LB": {
+      "min": -0.00699003,
+      "max": 0.00563122,
+      "unit": "deg"
+    },
+    "C4_C3_AR": {
+      "min": -0.00007233,
+      "max": 0.01027338,
+      "unit": "deg"
+    },
+    "C3_C2_FE": {
+      "min": -0.0027849000000000003,
+      "max": 0.007282749999999999,
+      "unit": "deg"
+    },
+    "C3_C2_LB": {
+      "min": -0.00671935,
+      "max": 0.00487529,
+      "unit": "deg"
+    },
+    "C3_C2_AR": {
+      "min": -0.00003561,
+      "max": 0.010302039999999998,
+      "unit": "deg"
+    },
+    "C2_C1_AR": {
+      "min": -0.00045201,
+      "max": 0.00832862,
+      "unit": "deg"
+    },
+    "C1_head_FE": {
+      "min": -0.00056911,
+      "max": 0.0069507,
+      "unit": "deg"
+    },
+    "shoulder_elv_r": {
+      "min": 0.05421076999999999,
+      "max": 0.07290445,
+      "unit": "deg"
+    },
+    "shoulder_rot_r": {
+      "min": -0.00020665,
+      "max": 0.00051146,
+      "unit": "deg"
+    },
+    "elv_angle_r": {
+      "min": -0.00019014,
+      "max": 0.00008528,
+      "unit": "deg"
+    },
+    "elbow_flexion_r": {
+      "min": 0.0542108,
+      "max": 0.07290451,
+      "unit": "deg"
+    },
+    "pro_sup_r": {
+      "min": 0,
+      "max": 0,
+      "unit": "deg"
+    },
+    "wrist_dev_r": {
+      "min": 0,
+      "max": 0,
+      "unit": "deg"
+    },
+    "wrist_flex_r": {
+      "min": 0,
+      "max": 0,
+      "unit": "deg"
+    },
+    "shoulder_elv_l": {
+      "min": -0.07290445,
+      "max": -0.05421076999999999,
+      "unit": "deg"
+    },
+    "shoulder_rot_l": {
+      "min": -0.0005056200000000001,
+      "max": 0.00020472,
+      "unit": "deg"
+    },
+    "elv_angle_l": {
+      "min": -0.00019014,
+      "max": 0.00008528,
+      "unit": "deg"
+    },
+    "elbow_flexion_l": {
+      "min": 0.0542108,
+      "max": 0.07290451,
+      "unit": "deg"
+    },
+    "pro_sup_l": {
+      "min": 0,
+      "max": 0,
+      "unit": "deg"
+    },
+    "wrist_dev_l": {
+      "min": 0,
+      "max": 0,
+      "unit": "deg"
+    },
+    "wrist_flex_l": {
+      "min": 0,
+      "max": 0,
+      "unit": "deg"
+    },
+    "hip_flexion_r": {
+      "min": -5.781552119999999,
+      "max": 37.17640944,
+      "unit": "deg"
+    },
+    "hip_adduction_r": {
+      "min": -5.96105392,
+      "max": 2.74266402,
+      "unit": "deg"
+    },
+    "hip_rotation_r": {
+      "min": -17.89340555,
+      "max": -5.73128527,
+      "unit": "deg"
+    },
+    "knee_angle_r": {
+      "min": -63.08378599000001,
+      "max": -7.1171045500000005,
+      "unit": "deg"
+    },
+    "ankle_angle_r": {
+      "min": -19.00744249,
+      "max": 9.12553964,
+      "unit": "deg"
+    },
+    "subtalar_angle_r": {
+      "min": -8.5716295758,
+      "max": 11.8509228436,
+      "unit": "deg"
+    },
+    "hip_flexion_l": {
+      "min": -7.65383227,
+      "max": 35.25963986,
+      "unit": "deg"
+    },
+    "hip_adduction_l": {
+      "min": -2.55784578,
+      "max": 6.27806102,
+      "unit": "deg"
+    },
+    "hip_rotation_l": {
+      "min": -32.92653304,
+      "max": -3.40444268,
+      "unit": "deg"
+    },
+    "knee_angle_l": {
+      "min": -67.10737031,
+      "max": -3.5931247800000006,
+      "unit": "deg"
+    },
+    "ankle_angle_l": {
+      "min": -19.89723379,
+      "max": 12.82209725,
+      "unit": "deg"
+    },
+    "subtalar_angle_l": {
+      "min": -5.5781977076,
+      "max": 11.373054495,
+      "unit": "deg"
+    },
+    "knee_angle_r_beta": {
+      "min": -63.08378599000001,
+      "max": -7.1171045500000005,
+      "unit": "deg"
+    },
+    "knee_angle_l_beta": {
+      "min": -67.10737031,
+      "max": -3.5931247800000006,
+      "unit": "deg"
+    }
+  }
+}

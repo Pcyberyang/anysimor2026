@@ -1,0 +1,808 @@
+{
+  "schemaVersion": 1,
+  "sourceModel": "public/models/opensim/source/SpineModel_mass60marktoPlugInGait_PY2026_vascap_anklefootX_1011PSneck_mir5_fullarm_R2L_v11_anybody_subtalar.osim",
+  "sourceModelSha256": "ccd0dfce867ce06adaedef84fc129afd831146d8acfb9accbc976a11629a9cbd",
+  "sourceCopy": "public/models/opensim/source/SpineModel_mass60marktoPlugInGait_PY2026_vascap_anklefootX_1011PSneck_mir5_fullarm_R2L_v11_anybody_subtalar.osim",
+  "manifest": "public/data/opensim/skeleton-manifest.json",
+  "scalingTemplate": "public/data/opensim/scaling-template.json",
+  "profile": "public/data/opensim/model-profile.json",
+  "bodyCount": 87,
+  "jointCount": 87,
+  "coordinateCount": 87,
+  "geometryCount": 131,
+  "triangleCount": 483452,
+  "warnings": [
+    "关节 knee_r 在默认坐标下存在非零 TransformAxis：[{\"name\":\"translation1\",\"value\":-0.0047630446032116735},{\"name\":\"translation2\",\"value\":-0.4189660844638758}]",
+    "关节 knee_l 在默认坐标下存在非零 TransformAxis：[{\"name\":\"translation1\",\"value\":-0.0047630446032116735},{\"name\":\"translation2\",\"value\":-0.4189660844638758}]",
+    "关节 patellofemoral_r 在默认坐标下存在非零 TransformAxis：[{\"name\":\"translation1\",\"value\":0.0482},{\"name\":\"translation2\",\"value\":-0.021},{\"name\":\"translation3\",\"value\":-0.0063}]",
+    "关节 patellofemoral_l 在默认坐标下存在非零 TransformAxis：[{\"name\":\"translation1\",\"value\":0.0482},{\"name\":\"translation2\",\"value\":-0.021},{\"name\":\"translation3\",\"value\":0.0063}]"
+  ],
+  "geometry": [
+    {
+      "source": "public/models/opensim/source/geometry/pelvis_rv.obj",
+      "output": "public/models/opensim/geometry/pelvis_rv.stl",
+      "format": "obj",
+      "triangles": 30642
+    },
+    {
+      "source": "public/models/opensim/source/geometry/pelvis_lv.obj",
+      "output": "public/models/opensim/geometry/pelvis_lv.stl",
+      "format": "obj",
+      "triangles": 30642
+    },
+    {
+      "source": "public/models/opensim/source/geometry/sacrum.obj",
+      "output": "public/models/opensim/geometry/sacrum.stl",
+      "format": "obj",
+      "triangles": 8648
+    },
+    {
+      "source": "public/models/opensim/source/geometry/lumbar5.vtp",
+      "output": "public/models/opensim/geometry/lumbar5.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/lumbar4.vtp",
+      "output": "public/models/opensim/geometry/lumbar4.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/lumbar3.vtp",
+      "output": "public/models/opensim/geometry/lumbar3.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/lumbar2.vtp",
+      "output": "public/models/opensim/geometry/lumbar2.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/lumbar1.vtp",
+      "output": "public/models/opensim/geometry/lumbar1.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic12_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic12_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic11_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic11_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic10_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic10_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic9_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic9_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic8_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic8_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic7_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic7_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic6_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic6_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic5_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic5_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic4_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic4_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic3_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic3_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic2_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic2_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thoracic1_s.vtp",
+      "output": "public/models/opensim/geometry/thoracic1_s.stl",
+      "format": "vtp",
+      "triangles": 424
+    },
+    {
+      "source": "public/models/opensim/source/geometry/cerv7_ammr.vtp",
+      "output": "public/models/opensim/geometry/cerv7_ammr.stl",
+      "format": "vtp",
+      "triangles": 1500
+    },
+    {
+      "source": "public/models/opensim/source/geometry/cerv6_ammr.vtp",
+      "output": "public/models/opensim/geometry/cerv6_ammr.stl",
+      "format": "vtp",
+      "triangles": 1500
+    },
+    {
+      "source": "public/models/opensim/source/geometry/cerv5_ammr.vtp",
+      "output": "public/models/opensim/geometry/cerv5_ammr.stl",
+      "format": "vtp",
+      "triangles": 1500
+    },
+    {
+      "source": "public/models/opensim/source/geometry/cerv4_ammr.vtp",
+      "output": "public/models/opensim/geometry/cerv4_ammr.stl",
+      "format": "vtp",
+      "triangles": 1500
+    },
+    {
+      "source": "public/models/opensim/source/geometry/cerv3_ammr.vtp",
+      "output": "public/models/opensim/geometry/cerv3_ammr.stl",
+      "format": "vtp",
+      "triangles": 1500
+    },
+    {
+      "source": "public/models/opensim/source/geometry/cerv2_ammr.vtp",
+      "output": "public/models/opensim/geometry/cerv2_ammr.stl",
+      "format": "vtp",
+      "triangles": 1500
+    },
+    {
+      "source": "public/models/opensim/source/geometry/cerv1_ammr.vtp",
+      "output": "public/models/opensim/geometry/cerv1_ammr.stl",
+      "format": "vtp",
+      "triangles": 1500
+    },
+    {
+      "source": "public/models/opensim/source/geometry/skull.obj",
+      "output": "public/models/opensim/geometry/skull.stl",
+      "format": "obj",
+      "triangles": 39098
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib12R.obj",
+      "output": "public/models/opensim/geometry/Rib12R.stl",
+      "format": "obj",
+      "triangles": 96
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib11R.obj",
+      "output": "public/models/opensim/geometry/Rib11R.stl",
+      "format": "obj",
+      "triangles": 154
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib10R.obj",
+      "output": "public/models/opensim/geometry/Rib10R.stl",
+      "format": "obj",
+      "triangles": 186
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib9R.obj",
+      "output": "public/models/opensim/geometry/Rib9R.stl",
+      "format": "obj",
+      "triangles": 184
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib8R.obj",
+      "output": "public/models/opensim/geometry/Rib8R.stl",
+      "format": "obj",
+      "triangles": 184
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib7R.obj",
+      "output": "public/models/opensim/geometry/Rib7R.stl",
+      "format": "obj",
+      "triangles": 178
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib6R.obj",
+      "output": "public/models/opensim/geometry/Rib6R.stl",
+      "format": "obj",
+      "triangles": 180
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib5R.obj",
+      "output": "public/models/opensim/geometry/Rib5R.stl",
+      "format": "obj",
+      "triangles": 178
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib4R.obj",
+      "output": "public/models/opensim/geometry/Rib4R.stl",
+      "format": "obj",
+      "triangles": 176
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib3R.obj",
+      "output": "public/models/opensim/geometry/Rib3R.stl",
+      "format": "obj",
+      "triangles": 178
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib2R.obj",
+      "output": "public/models/opensim/geometry/Rib2R.stl",
+      "format": "obj",
+      "triangles": 114
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib1R.obj",
+      "output": "public/models/opensim/geometry/Rib1R.stl",
+      "format": "obj",
+      "triangles": 122
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib12L.obj",
+      "output": "public/models/opensim/geometry/Rib12L.stl",
+      "format": "obj",
+      "triangles": 96
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib11L.obj",
+      "output": "public/models/opensim/geometry/Rib11L.stl",
+      "format": "obj",
+      "triangles": 154
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib10L.obj",
+      "output": "public/models/opensim/geometry/Rib10L.stl",
+      "format": "obj",
+      "triangles": 186
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib9L.obj",
+      "output": "public/models/opensim/geometry/Rib9L.stl",
+      "format": "obj",
+      "triangles": 184
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib8L.obj",
+      "output": "public/models/opensim/geometry/Rib8L.stl",
+      "format": "obj",
+      "triangles": 184
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib7L.obj",
+      "output": "public/models/opensim/geometry/Rib7L.stl",
+      "format": "obj",
+      "triangles": 178
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib6L.obj",
+      "output": "public/models/opensim/geometry/Rib6L.stl",
+      "format": "obj",
+      "triangles": 180
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib5L.obj",
+      "output": "public/models/opensim/geometry/Rib5L.stl",
+      "format": "obj",
+      "triangles": 178
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib4L.obj",
+      "output": "public/models/opensim/geometry/Rib4L.stl",
+      "format": "obj",
+      "triangles": 176
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib3L.obj",
+      "output": "public/models/opensim/geometry/Rib3L.stl",
+      "format": "obj",
+      "triangles": 178
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib2L.obj",
+      "output": "public/models/opensim/geometry/Rib2L.stl",
+      "format": "obj",
+      "triangles": 114
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Rib1L.obj",
+      "output": "public/models/opensim/geometry/Rib1L.stl",
+      "format": "obj",
+      "triangles": 122
+    },
+    {
+      "source": "public/models/opensim/source/geometry/Sternum.obj",
+      "output": "public/models/opensim/geometry/Sternum.stl",
+      "format": "obj",
+      "triangles": 216
+    },
+    {
+      "source": "public/models/opensim/source/geometry/clavicle_r.obj",
+      "output": "public/models/opensim/geometry/clavicle_r.stl",
+      "format": "obj",
+      "triangles": 1496
+    },
+    {
+      "source": "public/models/opensim/source/geometry/scapula_r.obj",
+      "output": "public/models/opensim/geometry/scapula_r.stl",
+      "format": "obj",
+      "triangles": 1860
+    },
+    {
+      "source": "public/models/opensim/source/geometry/humerus_r.obj",
+      "output": "public/models/opensim/geometry/humerus_r.stl",
+      "format": "obj",
+      "triangles": 8128
+    },
+    {
+      "source": "public/models/opensim/source/geometry/ulna_r.obj",
+      "output": "public/models/opensim/geometry/ulna_r.stl",
+      "format": "obj",
+      "triangles": 4142
+    },
+    {
+      "source": "public/models/opensim/source/geometry/radius.vtp",
+      "output": "public/models/opensim/geometry/radius.stl",
+      "format": "vtp",
+      "triangles": 391
+    },
+    {
+      "source": "public/models/opensim/source/geometry/lunate.vtp",
+      "output": "public/models/opensim/geometry/lunate.stl",
+      "format": "vtp",
+      "triangles": 3763
+    },
+    {
+      "source": "public/models/opensim/source/geometry/pisiform.vtp",
+      "output": "public/models/opensim/geometry/pisiform.stl",
+      "format": "vtp",
+      "triangles": 7126
+    },
+    {
+      "source": "public/models/opensim/source/geometry/scaphoid.vtp",
+      "output": "public/models/opensim/geometry/scaphoid.stl",
+      "format": "vtp",
+      "triangles": 3698
+    },
+    {
+      "source": "public/models/opensim/source/geometry/triquetrum.vtp",
+      "output": "public/models/opensim/geometry/triquetrum.stl",
+      "format": "vtp",
+      "triangles": 3228
+    },
+    {
+      "source": "public/models/opensim/source/geometry/hamate.vtp",
+      "output": "public/models/opensim/geometry/hamate.stl",
+      "format": "vtp",
+      "triangles": 5250
+    },
+    {
+      "source": "public/models/opensim/source/geometry/capitate.vtp",
+      "output": "public/models/opensim/geometry/capitate.stl",
+      "format": "vtp",
+      "triangles": 4812
+    },
+    {
+      "source": "public/models/opensim/source/geometry/trapezoid.vtp",
+      "output": "public/models/opensim/geometry/trapezoid.stl",
+      "format": "vtp",
+      "triangles": 2864
+    },
+    {
+      "source": "public/models/opensim/source/geometry/trapezium.vtp",
+      "output": "public/models/opensim/geometry/trapezium.stl",
+      "format": "vtp",
+      "triangles": 4536
+    },
+    {
+      "source": "public/models/opensim/source/geometry/1mc.vtp",
+      "output": "public/models/opensim/geometry/1mc.stl",
+      "format": "vtp",
+      "triangles": 5846
+    },
+    {
+      "source": "public/models/opensim/source/geometry/2mc.vtp",
+      "output": "public/models/opensim/geometry/2mc.stl",
+      "format": "vtp",
+      "triangles": 8456
+    },
+    {
+      "source": "public/models/opensim/source/geometry/3mc.vtp",
+      "output": "public/models/opensim/geometry/3mc.stl",
+      "format": "vtp",
+      "triangles": 8222
+    },
+    {
+      "source": "public/models/opensim/source/geometry/4mc.vtp",
+      "output": "public/models/opensim/geometry/4mc.stl",
+      "format": "vtp",
+      "triangles": 6556
+    },
+    {
+      "source": "public/models/opensim/source/geometry/5mc.vtp",
+      "output": "public/models/opensim/geometry/5mc.stl",
+      "format": "vtp",
+      "triangles": 5080
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thumbprox.vtp",
+      "output": "public/models/opensim/geometry/thumbprox.stl",
+      "format": "vtp",
+      "triangles": 3990
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thumbdist.vtp",
+      "output": "public/models/opensim/geometry/thumbdist.stl",
+      "format": "vtp",
+      "triangles": 3534
+    },
+    {
+      "source": "public/models/opensim/source/geometry/2proxph.vtp",
+      "output": "public/models/opensim/geometry/2proxph.stl",
+      "format": "vtp",
+      "triangles": 5178
+    },
+    {
+      "source": "public/models/opensim/source/geometry/2midph.vtp",
+      "output": "public/models/opensim/geometry/2midph.stl",
+      "format": "vtp",
+      "triangles": 2046
+    },
+    {
+      "source": "public/models/opensim/source/geometry/2distph.vtp",
+      "output": "public/models/opensim/geometry/2distph.stl",
+      "format": "vtp",
+      "triangles": 2218
+    },
+    {
+      "source": "public/models/opensim/source/geometry/3proxph.vtp",
+      "output": "public/models/opensim/geometry/3proxph.stl",
+      "format": "vtp",
+      "triangles": 5672
+    },
+    {
+      "source": "public/models/opensim/source/geometry/3midph.vtp",
+      "output": "public/models/opensim/geometry/3midph.stl",
+      "format": "vtp",
+      "triangles": 2262
+    },
+    {
+      "source": "public/models/opensim/source/geometry/3distph.vtp",
+      "output": "public/models/opensim/geometry/3distph.stl",
+      "format": "vtp",
+      "triangles": 2572
+    },
+    {
+      "source": "public/models/opensim/source/geometry/4proxph.vtp",
+      "output": "public/models/opensim/geometry/4proxph.stl",
+      "format": "vtp",
+      "triangles": 5320
+    },
+    {
+      "source": "public/models/opensim/source/geometry/4midph.vtp",
+      "output": "public/models/opensim/geometry/4midph.stl",
+      "format": "vtp",
+      "triangles": 2240
+    },
+    {
+      "source": "public/models/opensim/source/geometry/4distph.vtp",
+      "output": "public/models/opensim/geometry/4distph.stl",
+      "format": "vtp",
+      "triangles": 2638
+    },
+    {
+      "source": "public/models/opensim/source/geometry/5proxph.vtp",
+      "output": "public/models/opensim/geometry/5proxph.stl",
+      "format": "vtp",
+      "triangles": 3824
+    },
+    {
+      "source": "public/models/opensim/source/geometry/5midph.vtp",
+      "output": "public/models/opensim/geometry/5midph.stl",
+      "format": "vtp",
+      "triangles": 1608
+    },
+    {
+      "source": "public/models/opensim/source/geometry/5distph.vtp",
+      "output": "public/models/opensim/geometry/5distph.stl",
+      "format": "vtp",
+      "triangles": 3001
+    },
+    {
+      "source": "public/models/opensim/source/geometry/clavicle_l.obj",
+      "output": "public/models/opensim/geometry/clavicle_l.stl",
+      "format": "obj",
+      "triangles": 1496
+    },
+    {
+      "source": "public/models/opensim/source/geometry/scapula_l.obj",
+      "output": "public/models/opensim/geometry/scapula_l.stl",
+      "format": "obj",
+      "triangles": 1860
+    },
+    {
+      "source": "public/models/opensim/source/geometry/humerus_l.obj",
+      "output": "public/models/opensim/geometry/humerus_l.stl",
+      "format": "obj",
+      "triangles": 8128
+    },
+    {
+      "source": "public/models/opensim/source/geometry/ulna_l.obj",
+      "output": "public/models/opensim/geometry/ulna_l.stl",
+      "format": "obj",
+      "triangles": 4142
+    },
+    {
+      "source": "public/models/opensim/source/geometry/radius_l.vtp",
+      "output": "public/models/opensim/geometry/radius_l.stl",
+      "format": "vtp",
+      "triangles": 391
+    },
+    {
+      "source": "public/models/opensim/source/geometry/lunate_l.vtp",
+      "output": "public/models/opensim/geometry/lunate_l.stl",
+      "format": "vtp",
+      "triangles": 3763
+    },
+    {
+      "source": "public/models/opensim/source/geometry/pisiform_l.vtp",
+      "output": "public/models/opensim/geometry/pisiform_l.stl",
+      "format": "vtp",
+      "triangles": 7126
+    },
+    {
+      "source": "public/models/opensim/source/geometry/scaphoid_l.vtp",
+      "output": "public/models/opensim/geometry/scaphoid_l.stl",
+      "format": "vtp",
+      "triangles": 3698
+    },
+    {
+      "source": "public/models/opensim/source/geometry/triquetrum_l.vtp",
+      "output": "public/models/opensim/geometry/triquetrum_l.stl",
+      "format": "vtp",
+      "triangles": 3228
+    },
+    {
+      "source": "public/models/opensim/source/geometry/hamate_l.vtp",
+      "output": "public/models/opensim/geometry/hamate_l.stl",
+      "format": "vtp",
+      "triangles": 5250
+    },
+    {
+      "source": "public/models/opensim/source/geometry/capitate_l.vtp",
+      "output": "public/models/opensim/geometry/capitate_l.stl",
+      "format": "vtp",
+      "triangles": 4812
+    },
+    {
+      "source": "public/models/opensim/source/geometry/trapezoid_l.vtp",
+      "output": "public/models/opensim/geometry/trapezoid_l.stl",
+      "format": "vtp",
+      "triangles": 2864
+    },
+    {
+      "source": "public/models/opensim/source/geometry/trapezium_l.vtp",
+      "output": "public/models/opensim/geometry/trapezium_l.stl",
+      "format": "vtp",
+      "triangles": 4536
+    },
+    {
+      "source": "public/models/opensim/source/geometry/1mc_l.vtp",
+      "output": "public/models/opensim/geometry/1mc_l.stl",
+      "format": "vtp",
+      "triangles": 5846
+    },
+    {
+      "source": "public/models/opensim/source/geometry/2mc_l.vtp",
+      "output": "public/models/opensim/geometry/2mc_l.stl",
+      "format": "vtp",
+      "triangles": 8456
+    },
+    {
+      "source": "public/models/opensim/source/geometry/3mc_l.vtp",
+      "output": "public/models/opensim/geometry/3mc_l.stl",
+      "format": "vtp",
+      "triangles": 8222
+    },
+    {
+      "source": "public/models/opensim/source/geometry/4mc_l.vtp",
+      "output": "public/models/opensim/geometry/4mc_l.stl",
+      "format": "vtp",
+      "triangles": 6556
+    },
+    {
+      "source": "public/models/opensim/source/geometry/5mc_l.vtp",
+      "output": "public/models/opensim/geometry/5mc_l.stl",
+      "format": "vtp",
+      "triangles": 5080
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thumbprox_l.vtp",
+      "output": "public/models/opensim/geometry/thumbprox_l.stl",
+      "format": "vtp",
+      "triangles": 3990
+    },
+    {
+      "source": "public/models/opensim/source/geometry/thumbdist_l.vtp",
+      "output": "public/models/opensim/geometry/thumbdist_l.stl",
+      "format": "vtp",
+      "triangles": 3534
+    },
+    {
+      "source": "public/models/opensim/source/geometry/2proxph_l.vtp",
+      "output": "public/models/opensim/geometry/2proxph_l.stl",
+      "format": "vtp",
+      "triangles": 5178
+    },
+    {
+      "source": "public/models/opensim/source/geometry/2midph_l.vtp",
+      "output": "public/models/opensim/geometry/2midph_l.stl",
+      "format": "vtp",
+      "triangles": 2046
+    },
+    {
+      "source": "public/models/opensim/source/geometry/2distph_l.vtp",
+      "output": "public/models/opensim/geometry/2distph_l.stl",
+      "format": "vtp",
+      "triangles": 2218
+    },
+    {
+      "source": "public/models/opensim/source/geometry/3proxph_l.vtp",
+      "output": "public/models/opensim/geometry/3proxph_l.stl",
+      "format": "vtp",
+      "triangles": 5672
+    },
+    {
+      "source": "public/models/opensim/source/geometry/3midph_l.vtp",
+      "output": "public/models/opensim/geometry/3midph_l.stl",
+      "format": "vtp",
+      "triangles": 2262
+    },
+    {
+      "source": "public/models/opensim/source/geometry/3distph_l.vtp",
+      "output": "public/models/opensim/geometry/3distph_l.stl",
+      "format": "vtp",
+      "triangles": 2572
+    },
+    {
+      "source": "public/models/opensim/source/geometry/4proxph_l.vtp",
+      "output": "public/models/opensim/geometry/4proxph_l.stl",
+      "format": "vtp",
+      "triangles": 5320
+    },
+    {
+      "source": "public/models/opensim/source/geometry/4midph_l.vtp",
+      "output": "public/models/opensim/geometry/4midph_l.stl",
+      "format": "vtp",
+      "triangles": 2240
+    },
+    {
+      "source": "public/models/opensim/source/geometry/4distph_l.vtp",
+      "output": "public/models/opensim/geometry/4distph_l.stl",
+      "format": "vtp",
+      "triangles": 2638
+    },
+    {
+      "source": "public/models/opensim/source/geometry/5proxph_l.vtp",
+      "output": "public/models/opensim/geometry/5proxph_l.stl",
+      "format": "vtp",
+      "triangles": 3824
+    },
+    {
+      "source": "public/models/opensim/source/geometry/5midph_l.vtp",
+      "output": "public/models/opensim/geometry/5midph_l.stl",
+      "format": "vtp",
+      "triangles": 1608
+    },
+    {
+      "source": "public/models/opensim/source/geometry/5distph_l.vtp",
+      "output": "public/models/opensim/geometry/5distph_l.stl",
+      "format": "vtp",
+      "triangles": 3001
+    },
+    {
+      "source": "public/models/opensim/source/geometry/femur_r.obj",
+      "output": "public/models/opensim/geometry/femur_r.stl",
+      "format": "obj",
+      "triangles": 21020
+    },
+    {
+      "source": "public/models/opensim/source/geometry/tibia_r.obj",
+      "output": "public/models/opensim/geometry/tibia_r.stl",
+      "format": "obj",
+      "triangles": 7266
+    },
+    {
+      "source": "public/models/opensim/source/geometry/fibula_r.obj",
+      "output": "public/models/opensim/geometry/fibula_r.stl",
+      "format": "obj",
+      "triangles": 5608
+    },
+    {
+      "source": "public/models/opensim/source/geometry/talus_r.obj",
+      "output": "public/models/opensim/geometry/talus_r.stl",
+      "format": "obj",
+      "triangles": 880
+    },
+    {
+      "source": "public/models/opensim/source/geometry/foot_r.obj",
+      "output": "public/models/opensim/geometry/foot_r.stl",
+      "format": "obj",
+      "triangles": 6508
+    },
+    {
+      "source": "public/models/opensim/source/geometry/bofoot.vtp",
+      "output": "public/models/opensim/geometry/bofoot.stl",
+      "format": "vtp",
+      "triangles": 1860
+    },
+    {
+      "source": "public/models/opensim/source/geometry/femur_l.obj",
+      "output": "public/models/opensim/geometry/femur_l.stl",
+      "format": "obj",
+      "triangles": 21020
+    },
+    {
+      "source": "public/models/opensim/source/geometry/tibia_l.obj",
+      "output": "public/models/opensim/geometry/tibia_l.stl",
+      "format": "obj",
+      "triangles": 7266
+    },
+    {
+      "source": "public/models/opensim/source/geometry/fibula_l.obj",
+      "output": "public/models/opensim/geometry/fibula_l.stl",
+      "format": "obj",
+      "triangles": 5608
+    },
+    {
+      "source": "public/models/opensim/source/geometry/talus_l.obj",
+      "output": "public/models/opensim/geometry/talus_l.stl",
+      "format": "obj",
+      "triangles": 880
+    },
+    {
+      "source": "public/models/opensim/source/geometry/foot_l.obj",
+      "output": "public/models/opensim/geometry/foot_l.stl",
+      "format": "obj",
+      "triangles": 6508
+    },
+    {
+      "source": "public/models/opensim/source/geometry/l_bofoot.vtp",
+      "output": "public/models/opensim/geometry/l_bofoot.stl",
+      "format": "vtp",
+      "triangles": 1860
+    },
+    {
+      "source": "public/models/opensim/source/geometry/patella_r.obj",
+      "output": "public/models/opensim/geometry/patella_r.stl",
+      "format": "obj",
+      "triangles": 1620
+    },
+    {
+      "source": "public/models/opensim/source/geometry/patella_l.obj",
+      "output": "public/models/opensim/geometry/patella_l.stl",
+      "format": "obj",
+      "triangles": 1620
+    }
+  ]
+}

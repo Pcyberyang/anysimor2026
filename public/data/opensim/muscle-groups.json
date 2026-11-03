@@ -1,0 +1,5048 @@
+{
+  "schemaVersion": 1,
+  "modelKind": "opensim-muscle-groups",
+  "source": {
+    "modelFile": "public/models/opensim/source/SpineModel_mass60marktoPlugInGait_PY2026_vascap_anklefootX_1011PSneck_mir5_fullarm_R2L_v11_anybody_subtalar.osim",
+    "modelSha256": "ccd0dfce867ce06adaedef84fc129afd831146d8acfb9accbc976a11629a9cbd",
+    "pathPointStorage": "Body-local",
+    "wrapping": "Representative straight paths; PathWrap is not evaluated"
+  },
+  "meta": {
+    "groupCount": 28,
+    "pathCount": 92,
+    "pointCount": 330,
+    "drawMapping": "Activitymean drives the shared color, radius and opacity mapping"
+  },
+  "groups": [
+    {
+      "id": "gastrocnemius_lateralis_right",
+      "label": "腓肠肌外侧头（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-GastrocnemiusLat",
+      "restBellyRadius": 0.011,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "gastrocnemius_lateralis_r",
+          "points": [
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.0042033311,
+                -0.4077389819,
+                0.0304741064
+              ],
+              "initialLocal": [
+                -0.0039711290312956235,
+                -0.38521450480406144,
+                0.028790643836701744
+              ]
+            },
+            {
+              "bodyId": "tibia_r",
+              "targetLocal": [
+                -0.0513240567,
+                -0.0503896033,
+                0.0200552749
+              ],
+              "initialLocal": [
+                -0.04920422243843896,
+                -0.04830836470800442,
+                0.019226933151674303
+              ]
+            },
+            {
+              "bodyId": "calcn_r",
+              "targetLocal": [
+                -0.0070156627,
+                0.0056193159,
+                -0.0120034728
+              ],
+              "initialLocal": [
+                -0.007009797718448656,
+                0.004648330912835095,
+                -0.011993438089163052
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastrocnemius_lateralis_left",
+      "label": "腓肠肌外侧头（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-GastrocnemiusLat",
+      "restBellyRadius": 0.011,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "gastrocnemius_lateralis_l",
+          "points": [
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.0042033311,
+                -0.4077389819,
+                -0.0304741064
+              ],
+              "initialLocal": [
+                -0.0039711290312956235,
+                -0.38521450480406144,
+                -0.028790643836701744
+              ]
+            },
+            {
+              "bodyId": "tibia_l",
+              "targetLocal": [
+                -0.0513240567,
+                -0.050389603254857536,
+                -0.0200552749
+              ],
+              "initialLocal": [
+                -0.04920422243843896,
+                -0.04830836466472647,
+                -0.019226933151674303
+              ]
+            },
+            {
+              "bodyId": "calcn_l",
+              "targetLocal": [
+                -0.0070156627,
+                0.0056193159,
+                0.0120034728
+              ],
+              "initialLocal": [
+                -0.007009797718448656,
+                0.004648330912835095,
+                0.011993438089163052
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastrocnemius_medialis_right",
+      "label": "腓肠肌内侧头（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-GastrocnemiusMed",
+      "restBellyRadius": 0.012,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "med_gas_r",
+          "points": [
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.020110939093972643,
+                -0.41587222489499664,
+                -0.02487404585587387
+              ],
+              "initialLocal": [
+                -0.0189999626921355,
+                -0.39289844799283685,
+                -0.02349994403820325
+              ]
+            },
+            {
+              "bodyId": "calcn_r",
+              "targetLocal": [
+                0.0,
+                0.03747550745596193,
+                -0.00530443723059712
+              ],
+              "initialLocal": [
+                0.0,
+                0.03099995851483095,
+                -0.005300002806106086
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastrocnemius_medialis_left",
+      "label": "腓肠肌内侧头（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-GastrocnemiusMed",
+      "restBellyRadius": 0.012,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "med_gas_l",
+          "points": [
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.020110939093972643,
+                -0.41587222489499664,
+                0.02487404585587387
+              ],
+              "initialLocal": [
+                -0.0189999626921355,
+                -0.39289844799283685,
+                0.02349994403820325
+              ]
+            },
+            {
+              "bodyId": "calcn_l",
+              "targetLocal": [
+                0.0,
+                0.03747550745596193,
+                0.00530443723059712
+              ],
+              "initialLocal": [
+                0.0,
+                0.03099995851483095,
+                0.005300002806106086
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastrocnemius_total_right",
+      "label": "腓肠肌总体（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-Gastrocnemius",
+      "restBellyRadius": 0.017,
+      "opacity": 0.2,
+      "paths": [
+        {
+          "sourceMuscle": "gastrocnemius_lateralis_r",
+          "points": [
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.0042033311,
+                -0.4077389819,
+                0.0304741064
+              ],
+              "initialLocal": [
+                -0.0039711290312956235,
+                -0.38521450480406144,
+                0.028790643836701744
+              ]
+            },
+            {
+              "bodyId": "tibia_r",
+              "targetLocal": [
+                -0.0513240567,
+                -0.0503896033,
+                0.0200552749
+              ],
+              "initialLocal": [
+                -0.04920422243843896,
+                -0.04830836470800442,
+                0.019226933151674303
+              ]
+            },
+            {
+              "bodyId": "calcn_r",
+              "targetLocal": [
+                -0.0070156627,
+                0.0056193159,
+                -0.0120034728
+              ],
+              "initialLocal": [
+                -0.007009797718448656,
+                0.004648330912835095,
+                -0.011993438089163052
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "med_gas_r",
+          "points": [
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.020110939093972643,
+                -0.41587222489499664,
+                -0.02487404585587387
+              ],
+              "initialLocal": [
+                -0.0189999626921355,
+                -0.39289844799283685,
+                -0.02349994403820325
+              ]
+            },
+            {
+              "bodyId": "calcn_r",
+              "targetLocal": [
+                0.0,
+                0.03747550745596193,
+                -0.00530443723059712
+              ],
+              "initialLocal": [
+                0.0,
+                0.03099995851483095,
+                -0.005300002806106086
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastrocnemius_total_left",
+      "label": "腓肠肌总体（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-Gastrocnemius",
+      "restBellyRadius": 0.017,
+      "opacity": 0.2,
+      "paths": [
+        {
+          "sourceMuscle": "gastrocnemius_lateralis_l",
+          "points": [
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.0042033311,
+                -0.4077389819,
+                -0.0304741064
+              ],
+              "initialLocal": [
+                -0.0039711290312956235,
+                -0.38521450480406144,
+                -0.028790643836701744
+              ]
+            },
+            {
+              "bodyId": "tibia_l",
+              "targetLocal": [
+                -0.0513240567,
+                -0.050389603254857536,
+                -0.0200552749
+              ],
+              "initialLocal": [
+                -0.04920422243843896,
+                -0.04830836466472647,
+                -0.019226933151674303
+              ]
+            },
+            {
+              "bodyId": "calcn_l",
+              "targetLocal": [
+                -0.0070156627,
+                0.0056193159,
+                0.0120034728
+              ],
+              "initialLocal": [
+                -0.007009797718448656,
+                0.004648330912835095,
+                0.011993438089163052
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "med_gas_l",
+          "points": [
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.020110939093972643,
+                -0.41587222489499664,
+                0.02487404585587387
+              ],
+              "initialLocal": [
+                -0.0189999626921355,
+                -0.39289844799283685,
+                0.02349994403820325
+              ]
+            },
+            {
+              "bodyId": "calcn_l",
+              "targetLocal": [
+                0.0,
+                0.03747550745596193,
+                0.00530443723059712
+              ],
+              "initialLocal": [
+                0.0,
+                0.03099995851483095,
+                0.005300002806106086
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rectus_femoris_right",
+      "label": "股直肌（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-RectusFemoris",
+      "restBellyRadius": 0.011,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "rect_fem_r",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.0276613892,
+                -0.0365169717,
+                0.0933157334
+              ],
+              "initialLocal": [
+                -0.0292747588206391,
+                -0.038646849283245806,
+                0.0987584379694154
+              ]
+            },
+            {
+              "bodyId": "patella_r",
+              "targetLocal": [
+                -0.0039670772,
+                0.0291452155,
+                -0.0065819661
+              ],
+              "initialLocal": [
+                -0.0037479354162139695,
+                0.027535230568650974,
+                -0.00621837756384215
+              ]
+            },
+            {
+              "bodyId": "tibia_r",
+              "targetLocal": [
+                0.036338935,
+                -0.0583852133,
+                0.0094
+              ],
+              "initialLocal": [
+                0.03483803027043213,
+                -0.055973732534842766,
+                0.009011752395662173
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rectus_femoris_left",
+      "label": "股直肌（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-RectusFemoris",
+      "restBellyRadius": 0.011,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "rect_fem_l",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.02766138920921884,
+                -0.036516971673774185,
+                -0.09331573335445688
+              ],
+              "initialLocal": [
+                -0.029274758830395636,
+                -0.038646849255490355,
+                -0.09875843792121594
+              ]
+            },
+            {
+              "bodyId": "patella_l",
+              "targetLocal": [
+                -0.0039670772,
+                0.0291452155,
+                0.0065819661
+              ],
+              "initialLocal": [
+                -0.0037479354162139695,
+                0.027535230568650974,
+                0.00621837756384215
+              ]
+            },
+            {
+              "bodyId": "tibia_l",
+              "targetLocal": [
+                0.03633893499018158,
+                -0.0583852133,
+                -0.0094
+              ],
+              "initialLocal": [
+                0.03483803026101923,
+                -0.055973732534842766,
+                -0.009011752395662173
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iliacus_total_right",
+      "label": "髂肌总体（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-Iliacus",
+      "restBellyRadius": 0.01,
+      "opacity": 0.2,
+      "paths": [
+        {
+          "sourceMuscle": "iliacus_r",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.0584812821,
+                0.0344191563,
+                0.092652097
+              ],
+              "initialLocal": [
+                -0.06189224324999766,
+                0.036426677351851185,
+                0.0980560945182558
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.0331009183,
+                -0.0529840194,
+                0.0758721863
+              ],
+              "initialLocal": [
+                -0.03503155221047897,
+                -0.056074348908082425,
+                0.08029748394296475
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.0161459271,
+                -0.0447457299,
+                0.006813041
+              ],
+              "initialLocal": [
+                0.015253987449143074,
+                -0.04227386870199272,
+                0.0064366723112788725
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.01112759,
+                -0.0774655746,
+                0.0153368668
+              ],
+              "initialLocal": [
+                -0.010512875299629588,
+                -0.0731861908808604,
+                0.014489621576228913
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iliacus_total_left",
+      "label": "髂肌总体（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-Iliacus",
+      "restBellyRadius": 0.01,
+      "opacity": 0.2,
+      "paths": [
+        {
+          "sourceMuscle": "iliacus_l",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.0584812820886508,
+                0.034419156264209536,
+                -0.09265209698560298
+              ],
+              "initialLocal": [
+                -0.06189224323798651,
+                0.03642667731397321,
+                -0.09805609450301905
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.03310091829756876,
+                -0.052984019449416685,
+                -0.07587218630856217
+              ],
+              "initialLocal": [
+                -0.03503155220790593,
+                -0.056074348960381375,
+                -0.08029748395202631
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.01614592710719545,
+                -0.04474572989819525,
+                -0.006813041025099949
+              ],
+              "initialLocal": [
+                0.015253987455941033,
+                -0.04227386870028767,
+                -0.006436672334992241
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.011127589962601346,
+                -0.07746557457960715,
+                -0.015336866816232142
+              ],
+              "initialLocal": [
+                -0.010512875264296926,
+                -0.07318619086159409,
+                -0.014489621591564352
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_t12_l2_right",
+      "label": "腰大肌 T12-L2（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-PsoasMajorT12L2",
+      "restBellyRadius": 0.008,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L1_VB_r",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.0046249751326204154,
+                0.02945567728797483,
+                0.022801676478650064
+              ],
+              "initialLocal": [
+                -0.00489473,
+                0.0311737,
+                0.0241316
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.0538586567,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.05700000003239526,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.0104345169
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00985808921622539
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.019142028,
+                0.0265444752,
+                0.0252867338
+              ],
+              "initialLocal": [
+                -0.020258499997459295,
+                0.02809270004054734,
+                0.026761600005132887
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.073,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.068967305308064,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_L2_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.002898002,
+                0.008618604,
+                0.024643737
+              ],
+              "initialLocal": [
+                -0.003067029967234247,
+                0.009121290028000308,
+                0.02608109997289146
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                -0.0146727989,
+                0.0223794057,
+                0.0289538469
+              ],
+              "initialLocal": [
+                -0.015528600024948807,
+                0.023684699986678034,
+                0.030642600008216832
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_L3_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                0.0036163915,
+                0.0061239655,
+                0.0276800424
+              ],
+              "initialLocal": [
+                0.003827320030749188,
+                0.006481150015358394,
+                0.029294499981406003
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_t12_l2_left",
+      "label": "腰大肌 T12-L2（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-PsoasMajorT12L2",
+      "restBellyRadius": 0.008,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L1_VB_l",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.0046249751326204154,
+                0.02945567728797483,
+                -0.022801676478650064
+              ],
+              "initialLocal": [
+                -0.00489473,
+                0.0311737,
+                -0.0241316
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.05385865666939008,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.057,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.010434516943535579
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.009858089257355962
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.019142028002400682,
+                0.026544475161687276,
+                -0.025286733795149993
+              ],
+              "initialLocal": [
+                -0.0202585,
+                0.0280927,
+                -0.0267616
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.073,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.068967305308064,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_L2_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.0028980020309599904,
+                0.008618603973542825,
+                -0.024643737025614555
+              ],
+              "initialLocal": [
+                -0.00306703,
+                0.00912129,
+                -0.0260811
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                -0.014672798876426155,
+                0.022379405712587775,
+                -0.028953846892236006
+              ],
+              "initialLocal": [
+                -0.0155286,
+                0.0236847,
+                -0.0306426
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_L3_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                0.0036163914709454394,
+                0.006123965485488026,
+                -0.02768004241756926
+              ],
+              "initialLocal": [
+                0.00382732,
+                0.00648115,
+                -0.0292945
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_l3_l5_right",
+      "label": "腰大肌 L3-L5（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-PsoasMajorL3L5",
+      "restBellyRadius": 0.008,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L3_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.02141599718030514,
+                0.024370191743056865,
+                0.03221616966445945
+              ],
+              "initialLocal": [
+                -0.0226651,
+                0.0257916,
+                0.0340952
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L3_L4_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.00061076,
+                0.0071860204,
+                0.0246980681
+              ],
+              "initialLocal": [
+                -0.0006463829986273262,
+                0.007605150000571645,
+                0.02613859997180547
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L4_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.0217179836,
+                0.0248307305,
+                0.0284368983
+              ],
+              "initialLocal": [
+                -0.022984699986094526,
+                0.026278999997866603,
+                0.03009550002425554
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L4_L5_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.0008153303,
+                0.006058239,
+                0.0268701783
+              ],
+              "initialLocal": [
+                -0.0008628850025963021,
+                0.006411589971872771,
+                0.028437399998698192
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                -0.0184346843,
+                0.0224165398,
+                0.0358671252
+              ],
+              "initialLocal": [
+                -0.019509899987854625,
+                0.0237239999586954,
+                0.03795910003752331
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.0538586567,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.05700000003239526,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_VB_r",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                0.0015730696280058596,
+                0.013164189556455133,
+                0.03333765807851031
+              ],
+              "initialLocal": [
+                0.00166482,
+                0.013932,
+                0.0352821
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_l3_l5_left",
+      "label": "腰大肌 L3-L5（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-PsoasMajorL3L5",
+      "restBellyRadius": 0.008,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L3_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.02141599718030514,
+                0.024370191743056865,
+                -0.03221616966445945
+              ],
+              "initialLocal": [
+                -0.0226651,
+                0.0257916,
+                -0.0340952
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L3_L4_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.000610760001297024,
+                0.007186020399459859,
+                -0.024698068126640695
+              ],
+              "initialLocal": [
+                -0.000646383,
+                0.00760515,
+                -0.0261386
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L4_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.021717983613139126,
+                0.024830730502015824,
+                -0.028436898277081214
+              ],
+              "initialLocal": [
+                -0.0229847,
+                0.026279,
+                -0.0300955
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L4_L5_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.0008153302975467835,
+                0.006058239026577101,
+                -0.026870178301230063
+              ],
+              "initialLocal": [
+                -0.000862885,
+                0.00641159,
+                -0.0284374
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                -0.018434684311476025,
+                0.02241653983902825,
+                -0.03586712516454465
+              ],
+              "initialLocal": [
+                -0.0195099,
+                0.023724,
+                -0.0379591
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.05385865666939008,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.057,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_VB_l",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                0.0015730696280058596,
+                0.013164189556455133,
+                -0.03333765807851031
+              ],
+              "initialLocal": [
+                0.00166482,
+                0.013932,
+                -0.0352821
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_total_right",
+      "label": "腰大肌总体（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-PsoasMajor",
+      "restBellyRadius": 0.012,
+      "opacity": 0.2,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L1_VB_r",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.0046249751326204154,
+                0.02945567728797483,
+                0.022801676478650064
+              ],
+              "initialLocal": [
+                -0.00489473,
+                0.0311737,
+                0.0241316
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.0538586567,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.05700000003239526,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.0104345169
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00985808921622539
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.019142028,
+                0.0265444752,
+                0.0252867338
+              ],
+              "initialLocal": [
+                -0.020258499997459295,
+                0.02809270004054734,
+                0.026761600005132887
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.073,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.068967305308064,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_L2_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.002898002,
+                0.008618604,
+                0.024643737
+              ],
+              "initialLocal": [
+                -0.003067029967234247,
+                0.009121290028000308,
+                0.02608109997289146
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                -0.0146727989,
+                0.0223794057,
+                0.0289538469
+              ],
+              "initialLocal": [
+                -0.015528600024948807,
+                0.023684699986678034,
+                0.030642600008216832
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_L3_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                0.0036163915,
+                0.0061239655,
+                0.0276800424
+              ],
+              "initialLocal": [
+                0.003827320030749188,
+                0.006481150015358394,
+                0.029294499981406003
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L3_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.02141599718030514,
+                0.024370191743056865,
+                0.03221616966445945
+              ],
+              "initialLocal": [
+                -0.0226651,
+                0.0257916,
+                0.0340952
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L3_L4_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.00061076,
+                0.0071860204,
+                0.0246980681
+              ],
+              "initialLocal": [
+                -0.0006463829986273262,
+                0.007605150000571645,
+                0.02613859997180547
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L4_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.0217179836,
+                0.0248307305,
+                0.0284368983
+              ],
+              "initialLocal": [
+                -0.022984699986094526,
+                0.026278999997866603,
+                0.03009550002425554
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L4_L5_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.0008153303,
+                0.006058239,
+                0.0268701783
+              ],
+              "initialLocal": [
+                -0.0008628850025963021,
+                0.006411589971872771,
+                0.028437399998698192
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                -0.0184346843,
+                0.0224165398,
+                0.0358671252
+              ],
+              "initialLocal": [
+                -0.019509899987854625,
+                0.0237239999586954,
+                0.03795910003752331
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.0538586567,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.05700000003239526,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_VB_r",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                0.0015730696280058596,
+                0.013164189556455133,
+                0.03333765807851031
+              ],
+              "initialLocal": [
+                0.00166482,
+                0.013932,
+                0.0352821
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_total_left",
+      "label": "腰大肌总体（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-PsoasMajor",
+      "restBellyRadius": 0.012,
+      "opacity": 0.2,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L1_VB_l",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.0046249751326204154,
+                0.02945567728797483,
+                -0.022801676478650064
+              ],
+              "initialLocal": [
+                -0.00489473,
+                0.0311737,
+                -0.0241316
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.05385865666939008,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.057,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.010434516943535579
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.009858089257355962
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.019142028002400682,
+                0.026544475161687276,
+                -0.025286733795149993
+              ],
+              "initialLocal": [
+                -0.0202585,
+                0.0280927,
+                -0.0267616
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.073,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.068967305308064,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_L2_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.0028980020309599904,
+                0.008618603973542825,
+                -0.024643737025614555
+              ],
+              "initialLocal": [
+                -0.00306703,
+                0.00912129,
+                -0.0260811
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                -0.014672798876426155,
+                0.022379405712587775,
+                -0.028953846892236006
+              ],
+              "initialLocal": [
+                -0.0155286,
+                0.0236847,
+                -0.0306426
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_L3_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                0.0036163914709454394,
+                0.006123965485488026,
+                -0.02768004241756926
+              ],
+              "initialLocal": [
+                0.00382732,
+                0.00648115,
+                -0.0292945
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L3_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.02141599718030514,
+                0.024370191743056865,
+                -0.03221616966445945
+              ],
+              "initialLocal": [
+                -0.0226651,
+                0.0257916,
+                -0.0340952
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L3_L4_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.000610760001297024,
+                0.007186020399459859,
+                -0.024698068126640695
+              ],
+              "initialLocal": [
+                -0.000646383,
+                0.00760515,
+                -0.0261386
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L4_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.021717983613139126,
+                0.024830730502015824,
+                -0.028436898277081214
+              ],
+              "initialLocal": [
+                -0.0229847,
+                0.026279,
+                -0.0300955
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L4_L5_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.0008153302975467835,
+                0.006058239026577101,
+                -0.026870178301230063
+              ],
+              "initialLocal": [
+                -0.000862885,
+                0.00641159,
+                -0.0284374
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                -0.018434684311476025,
+                0.02241653983902825,
+                -0.03586712516454465
+              ],
+              "initialLocal": [
+                -0.0195099,
+                0.023724,
+                -0.0379591
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.05385865666939008,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.057,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_VB_l",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                0.0015730696280058596,
+                0.013164189556455133,
+                -0.03333765807851031
+              ],
+              "initialLocal": [
+                0.00166482,
+                0.013932,
+                -0.0352821
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_upper_right",
+      "label": "腰大肌上部（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-PsoasMajor-Upper",
+      "restBellyRadius": 0.008,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L1_VB_r",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.0046249751326204154,
+                0.02945567728797483,
+                0.022801676478650064
+              ],
+              "initialLocal": [
+                -0.00489473,
+                0.0311737,
+                0.0241316
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.0538586567,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.05700000003239526,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.0104345169
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00985808921622539
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.019142028,
+                0.0265444752,
+                0.0252867338
+              ],
+              "initialLocal": [
+                -0.020258499997459295,
+                0.02809270004054734,
+                0.026761600005132887
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.073,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.068967305308064,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_L2_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.002898002,
+                0.008618604,
+                0.024643737
+              ],
+              "initialLocal": [
+                -0.003067029967234247,
+                0.009121290028000308,
+                0.02608109997289146
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                -0.0146727989,
+                0.0223794057,
+                0.0289538469
+              ],
+              "initialLocal": [
+                -0.015528600024948807,
+                0.023684699986678034,
+                0.030642600008216832
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_L3_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                0.0036163915,
+                0.0061239655,
+                0.0276800424
+              ],
+              "initialLocal": [
+                0.003827320030749188,
+                0.006481150015358394,
+                0.029294499981406003
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_upper_left",
+      "label": "腰大肌上部（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-PsoasMajor-Upper",
+      "restBellyRadius": 0.008,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L1_VB_l",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.0046249751326204154,
+                0.02945567728797483,
+                -0.022801676478650064
+              ],
+              "initialLocal": [
+                -0.00489473,
+                0.0311737,
+                -0.0241316
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.05385865666939008,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.057,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.010434516943535579
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.009858089257355962
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.019142028002400682,
+                0.026544475161687276,
+                -0.025286733795149993
+              ],
+              "initialLocal": [
+                -0.0202585,
+                0.0280927,
+                -0.0267616
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.073,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.068967305308064,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L1_L2_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar1",
+              "targetLocal": [
+                -0.0028980020309599904,
+                0.008618603973542825,
+                -0.024643737025614555
+              ],
+              "initialLocal": [
+                -0.00306703,
+                0.00912129,
+                -0.0260811
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                -0.014672798876426155,
+                0.022379405712587775,
+                -0.028953846892236006
+              ],
+              "initialLocal": [
+                -0.0155286,
+                0.0236847,
+                -0.0306426
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L2_L3_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                0.0036163914709454394,
+                0.006123965485488026,
+                -0.02768004241756926
+              ],
+              "initialLocal": [
+                0.00382732,
+                0.00648115,
+                -0.0292945
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_mid_right",
+      "label": "腰大肌中部（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-PsoasMajor-Mid",
+      "restBellyRadius": 0.008,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L2_L3_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                0.0036163915,
+                0.0061239655,
+                0.0276800424
+              ],
+              "initialLocal": [
+                0.003827320030749188,
+                0.006481150015358394,
+                0.029294499981406003
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L3_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.02141599718030514,
+                0.024370191743056865,
+                0.03221616966445945
+              ],
+              "initialLocal": [
+                -0.0226651,
+                0.0257916,
+                0.0340952
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L3_L4_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.00061076,
+                0.0071860204,
+                0.0246980681
+              ],
+              "initialLocal": [
+                -0.0006463829986273262,
+                0.007605150000571645,
+                0.02613859997180547
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L4_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.0217179836,
+                0.0248307305,
+                0.0284368983
+              ],
+              "initialLocal": [
+                -0.022984699986094526,
+                0.026278999997866603,
+                0.03009550002425554
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_mid_left",
+      "label": "腰大肌中部（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-PsoasMajor-Mid",
+      "restBellyRadius": 0.008,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L2_L3_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar2",
+              "targetLocal": [
+                0.0036163914709454394,
+                0.006123965485488026,
+                -0.02768004241756926
+              ],
+              "initialLocal": [
+                0.00382732,
+                0.00648115,
+                -0.0292945
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L3_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.02141599718030514,
+                0.024370191743056865,
+                -0.03221616966445945
+              ],
+              "initialLocal": [
+                -0.0226651,
+                0.0257916,
+                -0.0340952
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L3_L4_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar3",
+              "targetLocal": [
+                -0.000610760001297024,
+                0.007186020399459859,
+                -0.024698068126640695
+              ],
+              "initialLocal": [
+                -0.000646383,
+                0.00760515,
+                -0.0261386
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L4_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.021717983613139126,
+                0.024830730502015824,
+                -0.028436898277081214
+              ],
+              "initialLocal": [
+                -0.0229847,
+                0.026279,
+                -0.0300955
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.054,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.0571495872779416,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_lower_right",
+      "label": "腰大肌下部（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-PsoasMajor-Lower",
+      "restBellyRadius": 0.008,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L4_L5_IVD_r",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.0008153303,
+                0.006058239,
+                0.0268701783
+              ],
+              "initialLocal": [
+                -0.0008628850025963021,
+                0.006411589971872771,
+                0.028437399998698192
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_TP_r",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                -0.0184346843,
+                0.0224165398,
+                0.0358671252
+              ],
+              "initialLocal": [
+                -0.019509899987854625,
+                0.0237239999586954,
+                0.03795910003752331
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.0538586567,
+                0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.05700000003239526,
+                0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_VB_r",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                0.0015730696280058596,
+                0.013164189556455133,
+                0.03333765807851031
+              ],
+              "initialLocal": [
+                0.00166482,
+                0.013932,
+                0.0352821
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psoas_major_lower_left",
+      "label": "腰大肌下部（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-PsoasMajor-Lower",
+      "restBellyRadius": 0.008,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "Ps_L4_L5_IVD_l",
+          "points": [
+            {
+              "bodyId": "lumbar4",
+              "targetLocal": [
+                -0.0008153302975467835,
+                0.006058239026577101,
+                -0.026870178301230063
+              ],
+              "initialLocal": [
+                -0.000862885,
+                0.00641159,
+                -0.0284374
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_TP_l",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                -0.018434684311476025,
+                0.02241653983902825,
+                -0.03586712516454465
+              ],
+              "initialLocal": [
+                -0.0195099,
+                0.023724,
+                -0.0379591
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.037,
+                -0.05385865666939008,
+                -0.07
+              ],
+              "initialLocal": [
+                -0.03915805054229332,
+                -0.057,
+                -0.07408279832325766
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "Ps_L5_VB_l",
+          "points": [
+            {
+              "bodyId": "lumbar5",
+              "targetLocal": [
+                0.0015730696280058596,
+                0.013164189556455133,
+                -0.03333765807851031
+              ],
+              "initialLocal": [
+                0.00166482,
+                0.013932,
+                -0.0352821
+              ]
+            },
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.035,
+                -0.053,
+                -0.072
+              ],
+              "initialLocal": [
+                -0.037041399161628824,
+                -0.05609126158760935,
+                -0.07619944970392215
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                0.006,
+                -0.045,
+                -0.006
+              ],
+              "initialLocal": [
+                0.005668545641758686,
+                -0.04251409231319014,
+                -0.005668545641758686
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.012,
+                -0.074,
+                -0.01
+              ],
+              "initialLocal": [
+                -0.011337091283517372,
+                -0.06991206291502379,
+                -0.00944757606959781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gluteus_medius_anterior_right",
+      "label": "臀中肌前束（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-GluteusMediusAnterior",
+      "restBellyRadius": 0.01,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "glut_med1_r",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.0385950631,
+                0.0254492582,
+                0.1208283792
+              ],
+              "initialLocal": [
+                -0.04084614679872432,
+                0.026933603752958724,
+                0.12787577782856713
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.023074614866399425,
+                -0.012384057836267814,
+                0.058745049212366306
+              ],
+              "initialLocal": [
+                -0.021799917922698104,
+                -0.011699932845843902,
+                0.05549983211460975
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gluteus_medius_anterior_left",
+      "label": "臀中肌前束（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-GluteusMediusAnterior",
+      "restBellyRadius": 0.01,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "glut_med1_l",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.0385950631247454,
+                0.025449258157553473,
+                -0.12082837917222602
+              ],
+              "initialLocal": [
+                -0.04084614682491301,
+                0.026933603708036474,
+                -0.12787577779917322
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.023074614866399425,
+                -0.012384057836267814,
+                -0.058745049212366306
+              ],
+              "initialLocal": [
+                -0.021799917922698104,
+                -0.011699932845843902,
+                -0.05549983211460975
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gluteus_medius_posterior_right",
+      "label": "臀中肌后束（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-GluteusMediusPosterior",
+      "restBellyRadius": 0.01,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "glut_med2_r",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.080787985,
+                0.0420475478,
+                0.0829056212
+              ],
+              "initialLocal": [
+                -0.08549999999567662,
+                0.04450000005221336,
+                0.0877411487889142
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.0273084656,
+                -0.011565439,
+                0.0557812747
+              ],
+              "initialLocal": [
+                -0.0257998806099995,
+                -0.010926536473079321,
+                0.05269978359873817
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "glut_med3_r",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.118778158,
+                0.0238397341,
+                0.063675245
+              ],
+              "initialLocal": [
+                -0.12570597606174327,
+                0.025230203048719826,
+                0.0673891476217003
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.0239118155,
+                -0.0124081112,
+                0.0548286929
+              ],
+              "initialLocal": [
+                -0.022590869589843795,
+                -0.011722657444202856,
+                0.05179982469693673
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gluteus_medius_posterior_left",
+      "label": "臀中肌后束（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-GluteusMediusPosterior",
+      "restBellyRadius": 0.01,
+      "opacity": 1.0,
+      "paths": [
+        {
+          "sourceMuscle": "glut_med2_l",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.08078798500408513,
+                0.04204754775066418,
+                -0.08290562116630987
+              ],
+              "initialLocal": [
+                -0.0855,
+                0.0445,
+                -0.08774114875325907
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.02730846560511677,
+                -0.01156543896117973,
+                -0.0557812747165627
+              ],
+              "initialLocal": [
+                -0.025799880614833605,
+                -0.010926536436403577,
+                -0.0526997836143859
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "glut_med3_l",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.11877815802306646,
+                0.02383973408775301,
+                -0.06367524498231872
+              ],
+              "initialLocal": [
+                -0.1257059760861551,
+                0.025230203035758524,
+                -0.06738914760298774
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.023911815529516815,
+                -0.012408111175790862,
+                -0.05482869285353319
+              ],
+              "initialLocal": [
+                -0.022590869617730033,
+                -0.011722657421331089,
+                -0.051799824653036855
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gluteus_medius_total_right",
+      "label": "臀中肌总体（右）",
+      "side": "right",
+      "activationColumn": "Activitymean-GluteusMed",
+      "restBellyRadius": 0.015,
+      "opacity": 0.2,
+      "paths": [
+        {
+          "sourceMuscle": "glut_med1_r",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.0385950631,
+                0.0254492582,
+                0.1208283792
+              ],
+              "initialLocal": [
+                -0.04084614679872432,
+                0.026933603752958724,
+                0.12787577782856713
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.023074614866399425,
+                -0.012384057836267814,
+                0.058745049212366306
+              ],
+              "initialLocal": [
+                -0.021799917922698104,
+                -0.011699932845843902,
+                0.05549983211460975
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "glut_med2_r",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.080787985,
+                0.0420475478,
+                0.0829056212
+              ],
+              "initialLocal": [
+                -0.08549999999567662,
+                0.04450000005221336,
+                0.0877411487889142
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.0273084656,
+                -0.011565439,
+                0.0557812747
+              ],
+              "initialLocal": [
+                -0.0257998806099995,
+                -0.010926536473079321,
+                0.05269978359873817
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "glut_med3_r",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.118778158,
+                0.0238397341,
+                0.063675245
+              ],
+              "initialLocal": [
+                -0.12570597606174327,
+                0.025230203048719826,
+                0.0673891476217003
+              ]
+            },
+            {
+              "bodyId": "femur_r",
+              "targetLocal": [
+                -0.0239118155,
+                -0.0124081112,
+                0.0548286929
+              ],
+              "initialLocal": [
+                -0.022590869589843795,
+                -0.011722657444202856,
+                0.05179982469693673
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gluteus_medius_total_left",
+      "label": "臀中肌总体（左）",
+      "side": "left",
+      "activationColumn": "Activitymean-GluteusMed",
+      "restBellyRadius": 0.015,
+      "opacity": 0.2,
+      "paths": [
+        {
+          "sourceMuscle": "glut_med1_l",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.0385950631247454,
+                0.025449258157553473,
+                -0.12082837917222602
+              ],
+              "initialLocal": [
+                -0.04084614682491301,
+                0.026933603708036474,
+                -0.12787577779917322
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.023074614866399425,
+                -0.012384057836267814,
+                -0.058745049212366306
+              ],
+              "initialLocal": [
+                -0.021799917922698104,
+                -0.011699932845843902,
+                -0.05549983211460975
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "glut_med2_l",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.08078798500408513,
+                0.04204754775066418,
+                -0.08290562116630987
+              ],
+              "initialLocal": [
+                -0.0855,
+                0.0445,
+                -0.08774114875325907
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.02730846560511677,
+                -0.01156543896117973,
+                -0.0557812747165627
+              ],
+              "initialLocal": [
+                -0.025799880614833605,
+                -0.010926536436403577,
+                -0.0526997836143859
+              ]
+            }
+          ]
+        },
+        {
+          "sourceMuscle": "glut_med3_l",
+          "points": [
+            {
+              "bodyId": "pelvis",
+              "targetLocal": [
+                -0.11877815802306646,
+                0.02383973408775301,
+                -0.06367524498231872
+              ],
+              "initialLocal": [
+                -0.1257059760861551,
+                0.025230203035758524,
+                -0.06738914760298774
+              ]
+            },
+            {
+              "bodyId": "femur_l",
+              "targetLocal": [
+                -0.023911815529516815,
+                -0.012408111175790862,
+                -0.05482869285353319
+              ],
+              "initialLocal": [
+                -0.022590869617730033,
+                -0.011722657421331089,
+                -0.051799824653036855
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
